@@ -1,0 +1,21 @@
+<!--pages/map/map.wxml-->
+<map longitude="114.31599" latitude="30.55386"></map>
+<view>
+  <navigator url="/pages/test/test">跳转到test页面</navigator>
+</view>
+<view wx:if="{{length > 5}}">1</view>
+<view wx:elif="{{length > 2}}">2</view>
+<view wx:else>3</view>
+<!-- 输入框最多输入字数 -->
+<input bindinput='handleInput' maxlength='20'></input>
+<view>还可以输入{{20-length}}个字</view>
+<!-- 滚动视图 -->
+<scroll-view
+        scroll-y
+        style="height: 200px;"
+        scroll-top="{{scrollTop}}"
+    >
+        <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i" wx:key="i">{{i}}</view>
+        <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i" wx:key="i">{{i}}</view>
+        <view bindtap='goTop'>回到顶部</view>
+    </scroll-view>

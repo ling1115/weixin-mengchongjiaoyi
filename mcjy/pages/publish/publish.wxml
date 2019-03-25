@@ -1,0 +1,29 @@
+<!--pages/publish/publish.wxml-->
+<view class='content'>
+
+  <view class='row'>
+    <label>我的地址</label>
+    <view bindtap='chooseAdd'>{{address}}</view>
+  </view>
+
+  <view class='row'>
+    <label>类型</label>
+    <radio-group class="radio-group" bindchange="radioChange">
+        <radio value="buy" />求购
+        <radio value="sell" checked/>转让        
+    </radio-group>
+  </view>
+
+  <view class='row'>
+    <label>说明</label>
+    <input placeholder='请填写您的具体要求' bindchange='getMessage' />
+  </view>
+
+  <view class='row'>
+    <label>联系方式</label>
+    <input placeholder='请填写您的联系方式' bindchange='getContact' />
+  </view>
+
+  <button class='bth' bindtap='publish'>提交</button>
+
+</view>

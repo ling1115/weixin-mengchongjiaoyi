@@ -1,0 +1,27 @@
+<!--pages/detail/detail.wxml-->
+<view class='content'>
+
+  <view class='row'>
+    <label>地址</label>
+    <view bindtap='chooseAdd'>{{item.address}}</view>
+  </view>
+
+  <view class='row'>
+    <label>类型</label>
+    <image src='{{imgUrl}}'></image>
+    <text>{{item.type==='sell'?'转让':'购买'}}</text>
+  </view>
+
+  <view class='row'>
+    <label>说明</label>
+    <view>{{item.message}}</view>
+  </view>
+
+  <view class='row'>
+    <label>联系方式</label>
+    <view>{{item.contact}}</view>
+  </view>
+
+
+</view>
+

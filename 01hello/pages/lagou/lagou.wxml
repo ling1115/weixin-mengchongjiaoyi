@@ -1,0 +1,13 @@
+<!--pages/lagou/lagou.wxml-->
+<view  class='content'>
+  <view wx:for="{{jobs}}" wx:key="{{item.companyId}}" class='row'>
+    <image class='img' src="{{'https://www.lgstatic.com/'+item.companyLogo}}"/>
+    <view class='name'>
+      <view class='companyName'>{{item.companyName}}</view>
+      <view class='companyPosition'>{{item.positionName}}</view>
+      <view class='createTime'>{{item.createTime}}</view>
+    </view>
+    <view class='salary'>{{item.salary}}</view>
+  </view>
+</view>
+<button bindtap='getMore' class='more'>点击加载更多</button>

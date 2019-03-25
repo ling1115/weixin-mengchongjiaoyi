@@ -1,0 +1,38 @@
+/* pages/search/search.wxss */
+.header{
+  background: #03bbd5;
+  display: flex;
+  height: 88rpx;
+  width: 100%;
+}
+.header input{
+  margin: 20rpx;
+  border-radius: 10rpx;
+  flex: 5;
+  background: #fff;
+  height: 60rpx;
+}
+.header view{
+  margin-top: 20rpx;
+  flex: 1;
+  color: #fff;
+}
+.content{
+  background: #eee;
+  position: absolute;
+  left: 0;
+  top: 88rpx;
+  right: 0;
+  bottom: 0;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.list .item{
+  color: #ff9700;
+  margin-bottom: 10rpx;
+}

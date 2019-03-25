@@ -1,0 +1,30 @@
+/* pages/detail/detail.wxss */
+.content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #eee;
+}
+.row{
+  margin-bottom:10rpx;
+  display: flex;
+  background: #fff;
+  align-content: center;
+}
+.row label{
+  width:200rpx;
+  margin: 20rpx;
+}
+.row view{
+   flex: 1;
+}
+.row view,text{
+  margin-top: 20rpx;
+}
+image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+}

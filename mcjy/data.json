@@ -1,0 +1,67 @@
+{
+  "list": [
+    {
+      "type": "sell",
+      "address": "湖北省武汉市武昌区中山路237号",
+      "longitude": 114.31599,
+      "latitude": 30.55386,
+      "message": "cat",
+      "contact": "332432",
+      "id": 1
+    },
+    {
+      "type": "sell",
+      "address": "湖北省武汉市武昌区公正路3",
+      "longitude": 114.32076,
+      "latitude": 30.55323,
+      "message": "dog",
+      "contact": "432324",
+      "id": 2
+    },
+    {
+      "type": "buy",
+      "address": "湖北省武汉市武昌区积玉桥街办事处友谊大道4号",
+      "longitude": 114.31796,
+      "latitude": 30.55418,
+      "message": "cat",
+      "contact": "64354352",
+      "id": 3
+    },
+    {
+      "type": "buy",
+      "address": "湖北省武汉市武昌区友谊大道6号",
+      "longitude": 114.31795,
+      "latitude": 30.55485,
+      "message": "cat",
+      "contact": "43525634",
+      "id": 4
+    },
+    {
+      "type": "buy",
+      "address": "湖北省武汉市武昌区解放路238号",
+      "longitude": 114.298945,
+      "latitude": 30.535251,
+      "message": "cat",
+      "contact": "3525325",
+      "id": 5
+    },
+    {
+      "type": "buy",
+      "address": "湖北省武汉市洪山区秦园东路",
+      "longitude": 114.33573,
+      "latitude": 30.56692,
+      "message": "想买一只哈士奇",
+      "contact": "微信：dhuda92",
+      "id": 6
+    },
+    {
+      "type": "sell",
+      "address": "湖北省武汉市洪山区珞喻路889号",
+      "longitude": 114.398094105,
+      "latitude": 30.507450731,
+      "message": "转让一只橘猫",
+      "contact": "微信：fshhf89",
+      "id": 7
+    }
+  ]
+}

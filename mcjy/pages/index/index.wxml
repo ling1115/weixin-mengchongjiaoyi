@@ -1,0 +1,20 @@
+<!--地图-->
+<view class='mapbox'>
+  <map
+    id="map" 
+    class='map' 
+    longitude="{{longitude}}"
+    latitude="{{latitude}}"
+    scale="14"
+    controls="{{controls}}"
+    bindcontroltap="controltap"
+    markers="{{markers}}"
+    bindmarkertap="markertap"
+    show-location
+  ></map>
+</view>
+<!-- 底部 -->
+<view class='tabs'>
+  <view bindtap='goPublish'>发布</view>
+  <view bindtap='goSearch'>搜索</view>
+</view>

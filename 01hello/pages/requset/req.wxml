@@ -1,0 +1,5 @@
+<!--pages/requset/req.wxml-->
+<view wx:for='{{arr}}' wx:key='item.companyId'>
+  {{item.name}}
+  <image src="{{item.poster}}" />
+</view>

@@ -1,0 +1,57 @@
+/* pages/lagou/lagou.wxss */
+
+.row{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8
+}
+.img{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 24rpx;
+}
+.name{
+  width: 60%;
+  font-size: 14px;
+  position: relative;
+}
+.companyName{
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.companyPosition{
+  font-size: 12px;
+  float: left;
+    width: 60%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 15px;
+}
+.salary{
+  height: 140rpx;
+  line-height: 140rpx;
+  font-size: 13px;
+  color: #00b38a;
+  float: right;
+  text-align: center;
+}
+.createTime{
+    float: left;
+    font-size: 10px;
+    color: #888;
+    position:absolute;
+    left:8rpx;
+    top:114rpx;
+}
+.more{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #fafafa;
+}
